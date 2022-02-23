@@ -38,7 +38,7 @@
                 <div>
                     <ul class="nav navbar-nav navbar-right" style="display:inline;">
                         <li class="active"><a href="#">Home</a></li>
-                        <li><a href="{{ route('pagesme') }}">SME </a>
+                        <li><a href="{{ route('pagesme') }}">SME test </a>
                         </li>    
                         <li><a href="{{ route('pagecorp') }}">Corporate </a>
                         </li>                     
