@@ -11,37 +11,22 @@
                         <div class="card overflow-hidden">
                             <div class="bg-primary bg-soft">
                                 <div class="row">
-                                    <div class="col-7">
+                                    <div class="col-12">
                                         <div class="text-primary p-4">
                                             <h5 class="text-primary">Welcome </h5>
                                             <p>Sign In to continue to <b>UNGCSME</b></p>
                                         </div>
                                     </div>
-                                    <div class="col-5 align-self-end">
-                                        <img src="{{ URL::asset('/assets/images/profile-img.png') }}" alt=""
-                                            class="img-fluid">
-                                    </div>
                                 </div>
                             </div>
                             <div class="card-body pt-0">
-                                <div class="auth-logo">
-                                    <a href="index" class="auth-logo-light">
+                            <div>
                                         <div class="avatar-md profile-user-wid mb-4">
                                             <span class="avatar-title rounded-circle bg-light">
-                                                <img src="{{ URL::asset('/assets/images/logo-light.svg') }}" alt=""
-                                                    class="rounded-circle" height="34">
+                                                <img src="{{ asset ('assets/images2/home2/sme-register.png') }}" alt=""
+                                                    class="rounded-circle" height="100">
                                             </span>
                                         </div>
-                                    </a>
-
-                                    <a href="index" class="auth-logo-dark">
-                                        <div class="avatar-md profile-user-wid mb-4">
-                                            <span class="avatar-title rounded-circle bg-light">
-                                                <img src="{{ URL::asset('/assets/images/logo.svg') }}" alt=""
-                                                    class="rounded-circle" height="34">
-                                            </span>
-                                        </div>
-                                    </a>
                                 </div>
                                 <div class="p-2">
                                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
