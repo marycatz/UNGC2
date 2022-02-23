@@ -222,3 +222,43 @@
     width: 340px;
   }
 }
+
+.advanced {
+  background-color: #377f6f;
+  padding : 5px 10px 5px 10px;
+  color: #FFF;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.intermediate {
+  background-color: #6c99c6;
+  padding : 5px 10px 5px 10px;
+  color: #FFF;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.beginner {
+  background-color: #d59c11;
+  padding : 5px 10px 5px 10px;
+  color: #FFF;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.laggard {
+  background-color: #e93335;
+  padding : 5px 10px 5px 10px;
+  color: #FFF;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
