@@ -10,7 +10,7 @@
                     <span class="logo-lg">
                         <img src="{{ URL::asset('/assets/images/logo-dark.png') }}" alt="" height="17">
                     </span>
-                </a>
+                </a>TEST
 
                 <a href="index" class="logo logo-light">
                     <span class="logo-sm">

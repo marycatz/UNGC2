@@ -4,6 +4,7 @@
 @section('css')
     <link href="{{ URL::asset('/assets/libs/select2/select2.min.css') }}" rel="stylesheet" type="text/css" /> 
     <link href="{{ URL::asset('/assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ URL::asset('/assets/css/SME.css') }}" rel="stylesheet" type="text/css" />
 @endsection 
 
 @section('content') 
@@ -17,7 +18,7 @@
         <div class="card overflow-hidden">
             <div class="bg-primary bg-soft">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-12">
                         <div class="text-primary p-3">
                            
                             @php
@@ -27,9 +28,6 @@
                             <h5 class="text-primary">Welcome {{ Str::ucfirst(Auth::user()->name) }}!</h5>
                             <p>{{ $companyinfo->company_name }}</p>
                         </div>
-                    </div>
-                    <div class="col-3 align-self-end">
-                        <img src="{{ URL::asset('/assets/images/profile-img.png') }}" width="100%" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -49,9 +47,11 @@
                         <div>
 
                             <div class="row">
-                                <div class="col-12">
-                                    <!-- h5 class="font-size-15">4</h5 -->
-                                    <span class="" style="color:red;">Unverified</span>&nbsp; &nbsp;<span class="text-muted mb-0"><b>Advanced</b></span>
+                                <div class="col-5">
+                                    <span class="" style="color:red;">Unverified</span>
+                                </div>
+                                <div class="col-7">
+                                Current ACCESS index level<br /><span class=" advanced">Advanced</span>
                                 </div>
                             </div>
                             <div class="mt-4">
@@ -422,10 +422,8 @@
                                                 <th class="align-middle">No</th>
                                                 <th class="align-middle">Serial No</th>
                                                 <th class="align-middle">Completion <br />Date</th>
-                                                <th class="align-middle">E</th>
-                                                <th class="align-middle">S</th>
-                                                <th class="align-middle">G</th>
-                                                <th class="align-middle">Overall</th>
+                                                <th class="align-middle">Validity <br />Date</th>
+                                                <th class="align-middle">Overall (%)</th>
                                                 <th class="align-middle">Shared</th>
                                                 <th class="align-middle"></th>
                                             </tr>
@@ -435,10 +433,8 @@
                                                 <td>1</td>
                                                 <td>UNGCESG123202202</td>
                                                 <td>01/06/2022</td>
-                                                <td>30</td>
-                                                <td>85</td>
-                                                <td>70</td>
-                                                <td>61 <b>[Intermediate]</b></td>
+                                                <td>01/06/2023</td>
+                                                <td>61 <span class="intermediate">Intermediate</span></td>
                                                 <td><a href="" data-bs-toggle="modal" data-bs-target=".bs-example-modal-center1">3</a>
 
                                                     <div class="modal fade bs-example-modal-center1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -523,10 +519,8 @@
                                                 <td>2</td>
                                                 <td>UNGCESG123202101</td>
                                                 <td>12/12/2021</td>
-                                                <td>20</td>
-                                                <td>46</td>
-                                                <td>64</td>
-                                                <td>43 <b>[Beginner]</b></td>
+                                                <td>12/12/2022</td>
+                                                <td>43 <span class="beginner">Beginner</span></td>
                                                 <td><a href="" data-bs-toggle="modal" data-bs-target=".bs-example-modal-center3">1</a>
 
                                                     <div class="modal fade bs-example-modal-center3" tabindex="-1" role="dialog" aria-hidden="true">

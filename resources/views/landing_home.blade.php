@@ -6,18 +6,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>ACCESS : SME ESG Index Assessment Guidance</title>
-    <link href="{{ asset('/assets/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/assets/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/assets/css/animate.min.css') }}" rel="stylesheet"> 
-    <link href="{{ asset('/assets/css/lightbox.css') }}" rel="stylesheet"> 
-	<link href="{{ asset('/assets/css/landing.css') }}" rel="stylesheet">
-	<link href="{{ asset('/assets/css/responsive.css') }}" rel="stylesheet">
+    <link href="{{ asset('/assets/css2/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/assets/css2/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/assets/css2/animate.min.css') }}" rel="stylesheet"> 
+    <link href="{{ asset('/assets/css2/lightbox.css') }}" rel="stylesheet"> 
+	<link href="{{ asset('/assets/css2/main.css') }}" rel="stylesheet">
+	<link href="{{ asset('/assets/css2/responsive.css') }}" rel="stylesheet">
 
     <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="{{ asset('/assets/images/ico/ungc.png') }}">
+    <link rel="shortcut icon" href="{{ asset('/assets/images2/ico/ungc.png') }}">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -29,20 +29,26 @@
         <div class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
-
-                    <a class="navbar-brand">
-                    	<h1><img src="{{ asset ('assets/images/home2/logo2.png') }}" alt="logo"></h1>
-                    </a>
-                    
+                    <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="https://www.smecorp.gov.my/" target="_blank"><img src="{{ asset ('assets/images2/home2/logo-smecorp.png') }}" alt="logo"></a>
                 </div>
-                <div>
-                    <ul class="nav navbar-nav navbar-right" style="display:inline;">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="{{ route('pagesme') }}">SME test </a>
+                <div class="col-sm-3">
+                    <img src="{{ asset ('assets/images2/home2/logo-ungc.png') }}" alt="logo">
+                </div>
+                <div class="col-sm-7">
+                <ul class="nav navbar-nav navbar-right" style="display:inline;">
+                        <li class="active"><a href="{{ route('landinghome')}}">Home</a></li>
+                        <li><a href="{{ route('pagesme') }}">SME</a>
                         </li>    
                         <li><a href="{{ route('pagecorp') }}">Corporate </a>
                         </li>                     
                     </ul>
+                </div>
+            </div>
+        </div>
+                    
                 </div>
             </div>
         </div>
@@ -59,14 +65,14 @@
 <br /><br />
 <a href="doc/ACCESS_Assessment_Guide_v3.pdf" target="_blank"><button type="button" class="btn btn-sm btn-default"><i class="fa fa-angle-double-right"></i>  More Details</button></a>
                         <br /><br />
-                        <p><a href="{{ route('pagesme') }}"><img src="{{ asset ('assets/images/home2/sme.jpg') }}" width="150px"></a>&nbsp; &nbsp; &nbsp;<b style="font-size: 16px;">For SME</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ route('pagecorp') }}"><img src="{{ asset ('assets/images/home2/corporate.jpg') }}" width="150px"></a>&nbsp; &nbsp; &nbsp;<b style="font-size: 16px;">For Corporate</b></p>
+                        <p><a href="{{ route('pagesme') }}"><img src="{{ asset ('assets/images2/home2/sme.jpg') }}" width="150px"></a>&nbsp; &nbsp; &nbsp;<b style="font-size: 16px;">For SME</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="{{ route('pagecorp') }}"><img src="{{ asset ('assets/images2/home2/corporate.jpg') }}" width="150px"></a>&nbsp; &nbsp; &nbsp;<b style="font-size: 16px;">For Corporate</b></p>
 
 
                     </div>
-                    <img src="{{ asset ('assets/images/home2/computer.png') }}" class="slider-hill" alt="slider image">
-                    <img src="{{ asset ('assets/images/home2/vase1.png') }}" class="slider-birds1" alt="slider image">
-                    <img src="{{ asset ('assets/images/home2/laptop.png') }}" class="slider-birds2" alt="slider image">
-                    <img src="{{ asset ('assets/images/home2/man-woman.png') }}" class="slider-house" alt="slider image">
+                    <img src="{{ asset ('assets/images2/home2/computer.png') }}" class="slider-hill" alt="slider image">
+                    <img src="{{ asset ('assets/images2/home2/vase1.png') }}" class="slider-birds1" alt="slider image">
+                    <img src="{{ asset ('assets/images2/home2/laptop.png') }}" class="slider-birds2" alt="slider image">
+                    <img src="{{ asset ('assets/images2/home2/man-woman.png') }}" class="slider-house" alt="slider image">
                     <!-- img src="images/home/slider/sun.png" class="slider-sun" alt="slider image" -->
                     
                 </div>
@@ -99,10 +105,10 @@
     </footer>
     <!--/#footer-->
 
-    <script type="text/javascript" src="{{ asset('/assets/js/jquery.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/assets/js/bootstrap.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/assets/js/lightbox.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/assets/js/wow.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/assets/js/main.js') }}"></script>   
+    <script type="text/javascript" src="{{ asset('assets/js2/jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js2/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js2/lightbox.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js2/wow.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js2/main.js') }}"></script>   
 </body>
 </html>
