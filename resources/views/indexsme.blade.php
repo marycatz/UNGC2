@@ -5,6 +5,8 @@
     <link href="{{ URL::asset('/assets/libs/select2/select2.min.css') }}" rel="stylesheet" type="text/css" /> 
     <link href="{{ URL::asset('/assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ URL::asset('/assets/css/SME.css') }}" rel="stylesheet" type="text/css" />
+
+
 @endsection 
 
 @section('content') 
@@ -12,6 +14,8 @@
 @slot('li_1') Dashboards @endslot 
 @slot('title') Home @endslot 
 @endcomponent
+
+
 
 <div class="row">
     <div class="col-xl-3">
