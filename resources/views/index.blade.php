@@ -6,6 +6,7 @@
 @section('css')
     <link href="{{ URL::asset('/assets/libs/select2/select2.min.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ URL::asset('/assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ URL::asset('/assets/css/SME.css') }}" rel="stylesheet" type="text/css" />
 @endsection
 
 @section('content')
@@ -1265,7 +1266,7 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                                         35
                                     </td>
                                     <td>
-                                        38 <b>[Beginner] </b>
+                                        38 <span class="beginner">Beginner</span> </b>
                                     </td>
                                     <td>
                                        10/12/2021
