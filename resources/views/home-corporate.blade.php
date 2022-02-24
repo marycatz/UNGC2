@@ -118,7 +118,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="copyright-text2 text-center">
-                        <p>&copy; 2022. UN Global Compact Network Malaysia & Brunei (UNGC-MYB). All rights reserved.</p>
+                        <p>&copy; 2022 UN Global Compact Network Malaysia & Brunei (UNGC-MYB). All rights reserved.</p>
                     </div>
                 </div>
             </div>
