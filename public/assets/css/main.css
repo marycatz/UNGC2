@@ -1443,3 +1443,12 @@ body[data-layout-mode="dark"] .bg-dark {
 }
 
 
+#page-breadcrumb {
+    background-color: #cbe1f3;
+    background-position: center;
+    display: table;
+    position: static;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+  }
