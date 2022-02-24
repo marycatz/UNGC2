@@ -4,19 +4,20 @@
 
 
 @section('content')
-<div class="row"> <h5><b>Assessment > UNGCESG123202101</b></h5></div>
+
+@component('components.breadcrumb')
+        @slot('li_1')  @endslot
+        @slot('title') Assessment > UNGCESG123202101 @endslot
+    @endcomponent
+
 <br>
 <div class="row">
-    <div class="col-xl-3">
-    </div>
     <div class="col-xl-5">
         <!-- <div class="row">SME</div> -->
         <div class="row"> <h5>ESG Report Serial No: <b>UNGCESG123202101</b></h5></div>
     </div>
-    <div class="col-xl-4">
+    <div class="col-xl-7">
         <div class="row">
-            <!-- <div class="col-xl-2"><i class="fas fa-print" style="height: 5px; width:5px; font-size: 75px; padding-right: 5px;"></i></div> -->
-            <!-- <div class="col-xl-1">Download Printable PDF Version</div> -->
             <div style="text-align : right;">
                 <!-- <a href=""></a> -->
                 <a href="{{ asset('doc/Assessment_Report_pdf_version.pdf')}}" rel="noopener" target="_blank"><button type="button" class="btn btn-outline-primary waves-effect waves-light"><i class='fas fa-file-pdf' style='font-size:15px; color: red;'></i> Download PDF version</button></a>
@@ -59,15 +60,10 @@
                         <li>
                             <a>
                                 <div class="d-flex">
-                                    <div class="avatar-xs align-self-center me-3">
-                                        <span class="avatar-title rounded-circle" style="background-color: #FFBF00; color: white">
-                                            E
-                                        </span>
-                                    </div>
                                     <div class="flex-grow-1 align-self-center overflow-hidden">
-                                        <h5 class="font-size-14 mb-1">Environmental</h5>
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">E</b>nvironmental</h5>
                                     </div>
-                                    <div class="font-size-14 mb-1 align-self-center">30</div>
+                                    <div class="font-size-14 mb-1 align-self-center"><span class="avatar-title rounded-circle" style="background-color: #FFBF00; color: white; padding:8px;">30</span></div>
                                 </div>
                             </a>
                         </li>
@@ -75,15 +71,10 @@
                         <li>
                             <a>
                                 <div class="d-flex">
-                                    <div class="avatar-xs align-self-center me-3">
-                                        <span class="avatar-title rounded-circle " style="background-color: green; color: white">
-                                            S
-                                        </span>
-                                    </div>
                                     <div class="flex-grow-1 align-self-center overflow-hidden">
-                                        <h5 class="font-size-14 mb-1">Social</h5>
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">S</b>ocial</h5>
                                     </div>
-                                    <div class="font-size-14 mb-1 align-self-center">85</div>
+                                    <div class="font-size-14 mb-1 align-self-center"><span class="avatar-title rounded-circle" style="background-color: green; color: white; padding:8px;">85</span></div>
                                 </div>
                             </a>
                         </li>
@@ -91,15 +82,10 @@
                         <li>
                             <a>
                                 <div class="d-flex">
-                                    <div class="avatar-xs align-self-center me-3">
-                                        <span class="avatar-title rounded-circle" style="background-color: blue; color: white">
-                                            G
-                                        </span>
-                                    </div>
                                     <div class="flex-grow-1 align-self-center overflow-hidden">
-                                        <h5 class="font-size-14 mb-1">Governance</h5>
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">G</b>overnance</h5>
                                     </div>
-                                    <div class="font-size-14 mb-1 align-self-center">70</div>
+                                    <div class="font-size-14 mb-1 align-self-center"><span class="avatar-title rounded-circle" style="background-color: blue; color: white; padding:8px;">70</span></div>
                                 </div>
                             </a>
                         </li>
@@ -107,15 +93,10 @@
                         <li>
                             <a>
                                 <div class="d-flex">
-                                    <div class="avatar-xs align-self-center me-3">
-                                        <span class="avatar-title rounded-circle " style="background-color: blue; color: white">
-                                            ESG
-                                        </span>
-                                    </div>
                                     <div class="flex-grow-1 align-self-center overflow-hidden">
-                                        <h5 class="font-size-14 mb-1">ESG-Score</h5>
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">ESG</b>-Score</h5>
                                     </div>
-                                    <div class="font-size-14 mb-1 align-self-center">61</div>
+                                    <div class="font-size-14 mb-1 align-self-center"><span class="avatar-title rounded-circle" style="background-color: blue; color: white; padding:8px 10px 8px 10px;">61</span></div>
                                 </div>
                             </a>
                         </li>

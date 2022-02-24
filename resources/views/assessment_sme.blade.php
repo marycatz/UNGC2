@@ -4,41 +4,15 @@
 
 
 @section('content')
-<div class="row"> <h1><b>New Assessment</b></h1></div>
-<br>
+@component('components.breadcrumb')
+        @slot('li_1')  @endslot
+        @slot('title') New Assessment @endslot
+    @endcomponent
 <div class="row">
     <div >
-        <!-- <label style="font-size: 20px"> The assessment consists of 45 questions covering the Environmental, Social and Governance areas.
-        The assessment will take approximately 30 mins to complete. You may save your progress at any stage and return to
-        complete the assessment at a later time.</label>
-    </div>
-    <br>
-    <br>
-    <br>
-    <label style="font-size: 18px"> Certificate of incorporation (compulsory) </label>
-    <label style="font-size: 18px">ISO 14046:2014. Environmental management — Water footprint — Principles, requirements and guidelines based on Lifecycle Assessment. </label></br>
-    <label style="font-size: 18px">ISO 46001:2019. Water efficiency management systems.</label></br>
-    <label style="font-size: 18px">ISO 14001:2015. Environmental management systems.</label></br>
-    <label style="font-size: 18px">ISO 14006:2020. Environmental management systems.</label></br>
-    <label style="font-size: 18px">ISO 30415:2021. Human resource management — Diversity and inclusion.</label></br>
-    <label style="font-size: 18px">ISO 37001:2016. Anti-bribery management systems.</label></br> -->
-    <label style="font-size:25px;">Welcome to the ESG assessment!</label>
-            <ol>
-                <li style="font-size:18px;padding-top: 3px;">The assessment consists of 40 questions covering the Environmental, Social and Governance areas.</li>
-                <li style="font-size:18px;padding-top: 3px;">The assessment will take approximately 30 mins to complete. You may save your progress at any stage and return to complete the assessment at a later time.</li>
-                <li style="font-size:18px;padding-top: 3px;">You may need to prepare the following documents (for upload) before starting (if applicable):
-                    <ol style="list-style-type: lower-alpha;">
-                        <li style="font-size:18px;padding-top: 3px;">SSM Certificate of incorporation (compulsory)</li>
-                        <li style="font-size:18px;padding-top: 3px;">ISO 14046:2014. Environmental management — Water footprint — Principles, requirements and guidelines based on Lifecycle Assessment </li>
-                        <li style="font-size:18px;padding-top: 3px;">ISO 46001:2019. Water efficiency management systems. </li>
-                        <li style="font-size:18px;padding-top: 3px;">ISO 14001:2015. Environmental management systems.</li>
-                        <li style="font-size:18px;padding-top: 3px;">ISO 14006:2020. Environmental management systems.</li>
-                        <li style="font-size:18px;padding-top: 3px;">ISO 30415:2021. Human resource management — Diversity and inclusion.</li>
-                        <li style="font-size:18px;padding-top: 3px;">ISO 37001:2016. Anti-bribery management systems </li>
-                    </ol>
-                </li>
-                <li style="font-size:18px;padding-top: 3px;">You are allowed to complete the assessment once every 6 months. </li>
-            </ol>
+
+    <label><h3>Welcome to the ESG assessment!</h3></label>
+
         
 
 </div>
@@ -92,6 +66,7 @@
                     <section>
    
                         <h5><a style="font-size:22px; font-weight: bold; color:olivedrab">Environmental Dimension > </a><a style="font-size:22px; font-weight: bold;  color:royalblue"> Water Consumption</a></h5>
+                        <span style="color:#6e3b79;"><i>Monitoring, measuring and assessing water consumption within the business operations to ensure sustainable and efficient usage of water.</i></span><br /><br /><br />
                         <form>
                         @foreach($questions as $key => $p)
                             @if($p->survey->name == "Environment-Operations-Water_Consumption")
@@ -123,7 +98,7 @@
                            
                         @endforeach
                             
-                        <h5><a style="font-size:22px; font-weight: bold; color:olivedrab">Environmental Dimension > </a><a style="font-size:22px; font-weight: bold;  color:royalblue"> Environmental Management</a></h5>
+                        <h5><a style="font-size:22px; font-weight: bold; color:olivedrab">Environmental Dimension > </a><a style="font-size:22px; font-weight: bold;  color:royalblue"> Environmental Management</a></h5><span style="color:#6e3b79;"><i>Business management processes and practices aimed towards the protection and conservation of the environment by reducing negative and harmful impacts on the ecology.</i></span><br /><br /><br />
                         <form>
                         @foreach($questions as $key => $p)
                             @if($p->survey->name == "Environment-Operations-Environmental_Management")
@@ -157,6 +132,8 @@
                         </form>
                         <br>
                         <h5><a style="font-size:22px; font-weight: bold; color:olivedrab">Environmental Dimension > </a><a style="font-size:22px; font-weight: bold;  color:royalblue"> Ecosystem Approach</a></h5>
+                        <span style="color:#6e3b79;"><i>A framework of business management strategies that are aimed towards the conservation of land, water and living resources to maintain a balanced ecosystem that is sustainable.</i>
+</span><br /><br /><br />
                         <form>
                         @foreach($questions as $key => $p)
                             @if($p->survey->name == "Environment-Stakeholders-Ecosystems_Approach")
@@ -189,7 +166,7 @@
                         @endforeach
                         </form>
                         <br>
-                        <h5><a style="font-size:22px; font-weight: bold; color:olivedrab">Environmental Dimension > </a><a style="font-size:22px; font-weight: bold;  color:royalblue"> Carbon Foodprint (GHG Emissions)</a></h5>
+                        <h5><a style="font-size:22px; font-weight: bold; color:olivedrab">Environmental Dimension > </a><a style="font-size:22px; font-weight: bold;  color:royalblue"> Carbon Foodprint (GHG Emissions)</a></h5><span style="color:#6e3b79;"><i>Measures and strategies to monitor the impact of business activities on its emission of carbon and harmful air pollutants released in the environment.</i></span><br /><br /><br />
                         <form>
                         @foreach($questions as $key => $p)
                             @if($p->survey->name == "Environment-Operations-Carbon_Footprint-GHG_Emissions")
@@ -227,6 +204,11 @@
                     <h3>Social</h3>
                     <section>
                         <h5><a style="font-size:22px; font-weight: bold; color:violet">Social > </a><a style="font-size:22px; font-weight: bold;  color:royalblue"> Inclusivity</a></h5>
+                        <span style="color:#6e3b79;"><i>Initiatives to actively advocate for a safe, just and fair treatment among all employees within the
+organization regardless of race, sex, and disability. Preventing discrimination also includes
+implementing measures that encourage and include employees’ diverse backgrounds in the
+workplace.</i>
+</span><br /><br /><br />
                         <form>
                         @foreach($questions as $key => $p)
                             @if($p->survey->name == "Social-Human_Capital-Inclusivity")
@@ -260,6 +242,8 @@
                         </form>
                         </br>
                         <h5><a style="font-size:22px; font-weight: bold; color:violet">Social > </a><a style="font-size:22px; font-weight: bold;  color:royalblue"> Wages</a></h5>
+                        <span style="color:#6e3b79;"><i>Remuneration guidelines and structures set by an organization to ensure wages and salaries are.</i>
+</span><br /><br /><br />
                         <form>
                         @foreach($questions as $key => $p)
                             @if($p->survey->name == "Social-Human_Capital-Wages")
