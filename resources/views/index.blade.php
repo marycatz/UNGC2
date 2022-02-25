@@ -352,14 +352,12 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                         
                         <div class="row">
     <div class="col-lg-3">
-        <div class="card">
-            <div class="card-body" style="background-color:lightyellow;">
-                <div class="avatar-xs align-self-center me-3">
-                    <span class="avatar-title rounded-circle" style="background-color: blue; color: white">
-                        E
-                    </span>
-                </div>
-                <h4 class="card-title mb-4"><center>Environmental</center></h4>
+    <div class="card border border-dark btn-rounded">
+            <div class="card-body">
+                <div>
+                <div class="flex-grow-1 align-self-center overflow-hidden" style="background-color:#ddeffc; padding:5px 5px 5px 15px; border-radius : 20px; margin-bottom:10px;">
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">E</b>nvironmental</h5>
+                                    </div>
                 <div class="row">
                     <div class="col-sm-5">
                         <div>
@@ -447,28 +445,25 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                    
                 </div>
             </div>
-            <!-- end card body -->
         </div>
-        <!-- end card -->
+    </div>
     </div>
     <!-- end col -->
     <div class="col-md-3">
-    <div class="card">
-            <div class="card-body" style="background-color:lightyellow;">
-            <div class="avatar-xs align-self-center me-3">
-                                        <span class="avatar-title rounded-circle " style="background-color: #f5c142; color: white">
-                                            S
-                                        </span>
+    <div class="card border border-dark btn-rounded">
+            <div class="card-body">
+                <div>
+                <div class="flex-grow-1 align-self-center overflow-hidden" style="background-color:#ddeffc; padding:5px 5px 5px 15px; border-radius : 20px; margin-bottom:10px;">
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">S</b>ocial</h5>
                                     </div>
-                <h4 class="card-title mb-4"><center>Social</center></h4>
                 <div class="row">
                     <div class="col-sm-5">
                         <div>
-                       
+                 
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="">
+                        <div class="text-sm-end mt-4 mt-sm-0">
                             <p class="text-nowrap">Respondents</p>
                         </div>
                     </div>
@@ -478,13 +473,13 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div>
                           
-                        <h5 class="text-nowrap">Advanced</h5>
+                            <h5 class="text-nowrap">Advanced</h5>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5>12</h5>
+                        <h5 class="text-nowrap">12</h5>
 
                         </div>
                     </div>
@@ -516,7 +511,7 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                        <h5 class="text-nowrap">23</h5>
+                            <h5>23</h5>
 
                         </div>
                     </div>
@@ -532,7 +527,7 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                        <h5 class="text-nowrap">16</h5>
+                            <h5>16</h5>
 
                         </div>
                     </div>
@@ -550,24 +545,24 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
             </div>
         </div>
     </div>
+    </div>
 
     <div class="col-md-3">
-    <div class="card">
-            <div class="card-body" style="background-color:#CDF2CA;">
-            <div class="avatar-xs align-self-center me-3">
-                                        <span class="avatar-title rounded-circle" style="background-color: #f5c142; color: white">
-                                            G
-                                        </span>
+
+    <div class="card border border-dark btn-rounded">
+            <div class="card-body">
+                <div>
+                <div class="flex-grow-1 align-self-center overflow-hidden" style="background-color:#ddeffc; padding:5px 5px 5px 15px; border-radius : 20px; margin-bottom:10px;">
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">G</b>overnance</h5>
                                     </div>
-                <h4 class="card-title mb-4"><center>Governance</center></h4>
                 <div class="row">
                     <div class="col-sm-5">
                         <div>
-                       
+                 
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="">
+                        <div class="text-sm-end mt-4 mt-sm-0">
                             <p class="text-nowrap">Respondents</p>
                         </div>
                     </div>
@@ -577,7 +572,7 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div>
                           
-                        <h5 class="text-nowrap">Advanced</h5>
+                            <h5 class="text-nowrap">Advanced</h5>
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -599,7 +594,7 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5>37</h5>
+                        <h5 class="text-nowrap">37</h5>
 
                         </div>
                     </div>
@@ -649,20 +644,21 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
             </div>
         </div>
     </div>
+    <!-- end here -->
+    </div>
 
     <div class="col-md-3">
-        <div class="card">
-            <div class="card-body" style="background-color:lightyellow;">
-            <div class="avatar-xs align-self-center me-3">
-                                        <span class="avatar-title rounded-circle " style="background-color: #f5c142; color: white">
-                                            ESG
-                                        </span>
+
+    <div class="card border border-dark btn-rounded">
+            <div class="card-body">
+                <div>
+                <div class="flex-grow-1 align-self-center overflow-hidden" style="background-color:#ddeffc; padding:5px 5px 5px 15px; border-radius : 20px; margin-bottom:10px;">
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">ESG</b> score</h5>
                                     </div>
-                <h4 class="card-title mb-4"><center>Score</center></h4>
                 <div class="row">
                     <div class="col-sm-5">
                         <div>
-                       
+                 
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -676,13 +672,13 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div>
                           
-                        <h5 class="text-nowrap">Advanced</h5>
+                            <h5 class="text-nowrap">Advanced</h5>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5>39</h5>
+                        <h5 class="text-nowrap">39</h5>
 
                         </div>
                     </div>
@@ -698,7 +694,7 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5>75</h5>
+                        <h5 class="text-nowrap">75</h5>
 
                         </div>
                     </div>
@@ -738,19 +734,22 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                 <hr>
                 <div class="row">
                     <div class="col-sm-12">
-                        <span><br /><br /><br /></span>
+                        <center>
+                            <a href="{{  route('governance_detail') }}" class="btn btn-rounded waves-effect waves-light">&nbsp;</a>
+                        </center>
                     </div>
                    
                 </div>
-                
             </div>
         </div>
+    </div>
+    <!-- end here -->
     </div>
 
 
 </div>
                     
-                        
+                  <br /><br />      
                            
                         <div class="row">
                             <div class="col-lg-3">
@@ -830,16 +829,15 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                         </div>
                         <br>
                         The below overall breakdown shows that, for company size turnover less than RM 300,000 or less than 5 employees in Johor state for agribusiness. <br /><br />
+
                         <div class="row">
     <div class="col-lg-3">
-        <div class="card">
+    <div class="card border border-dark btn-rounded">
             <div class="card-body">
-                <div class="avatar-xs align-self-center me-3">
-                    <span class="avatar-title rounded-circle" style="background-color: green; color: white">
-                        E
-                    </span>
-                </div>
-                <h4 class="card-title mb-4"><center>Environmental</center></h4>
+                <div>
+                <div class="flex-grow-1 align-self-center overflow-hidden" style="background-color:#ddeffc; padding:5px 5px 5px 15px; border-radius : 20px; margin-bottom:10px;">
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">E</b>nvironmental</h5>
+                                    </div>
                 <div class="row">
                     <div class="col-sm-5">
                         <div>
@@ -857,13 +855,13 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div>
                           
-                        <h5 class="text-nowrap">Leadership</h5>
+                            <h5 class="text-nowrap">Advanced</h5>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5 id="el">5</h5>
+                        <h5 class="text-nowrap">10</h5>
 
                         </div>
                     </div>
@@ -873,13 +871,29 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div>
                           
-                        <h5 class="text-nowrap">Average</h5>
+                        <h5 class="text-nowrap">Intermediate</h5>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                        <h5 class="text-nowrap" id="ea">7</h5>
+                        <h5 class="text-nowrap">30</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div>
+                          
+                        <h5 class="text-nowrap">Beginner</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="text-sm-end mt-4 mt-sm-0">
+                           
+                            <h5>30</h5>
 
                         </div>
                     </div>
@@ -895,31 +909,27 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5 id="ela">4</h5>
+                            <h5>15</h5>
 
                         </div>
                     </div>
                 </div>
-         
             </div>
-            <!-- end card body -->
         </div>
-        <!-- end card -->
+    </div>
     </div>
     <!-- end col -->
     <div class="col-md-3">
-    <div class="card">
+    <div class="card border border-dark btn-rounded">
             <div class="card-body">
-            <div class="avatar-xs align-self-center me-3">
-                                        <span class="avatar-title rounded-circle " style="background-color: orchid; color: white">
-                                            S
-                                        </span>
+                <div>
+                <div class="flex-grow-1 align-self-center overflow-hidden" style="background-color:#ddeffc; padding:5px 5px 5px 15px; border-radius : 20px; margin-bottom:10px;">
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">S</b>ocial</h5>
                                     </div>
-                <h4 class="card-title mb-4"><center>Social</center></h4>
                 <div class="row">
                     <div class="col-sm-5">
                         <div>
-                       
+                 
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -933,13 +943,13 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div>
                           
-                        <h5 class="text-nowrap">Leadership</h5>
+                            <h5 class="text-nowrap">Advanced</h5>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                        <h5 class="text-nowrap" id="sol">3</h5>
+                        <h5 class="text-nowrap">12</h5>
 
                         </div>
                     </div>
@@ -949,13 +959,29 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div>
                           
-                        <h5 class="text-nowrap">Average</h5>
+                        <h5 class="text-nowrap">Intermediate</h5>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5 id="soa">8</h5>
+                        <h5 class="text-nowrap">17</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div>
+                          
+                        <h5 class="text-nowrap">Beginner</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="text-sm-end mt-4 mt-sm-0">
+                           
+                            <h5>23</h5>
 
                         </div>
                     </div>
@@ -971,34 +997,33 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5 id="sola">4</h5>
+                            <h5>16</h5>
 
                         </div>
                     </div>
                 </div>
-             
             </div>
         </div>
+    </div>
     </div>
 
     <div class="col-md-3">
-    <div class="card">
+
+    <div class="card border border-dark btn-rounded">
             <div class="card-body">
-            <div class="avatar-xs align-self-center me-3">
-                                        <span class="avatar-title rounded-circle" style="background-color: red; color: white">
-                                            G
-                                        </span>
+                <div>
+                <div class="flex-grow-1 align-self-center overflow-hidden" style="background-color:#ddeffc; padding:5px 5px 5px 15px; border-radius : 20px; margin-bottom:10px;">
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">G</b>overnance</h5>
                                     </div>
-                <h4 class="card-title mb-4"><center>Governance</center></h4>
                 <div class="row">
                     <div class="col-sm-5">
                         <div>
-                       
+                 
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
-                            <p class="text-muted mb-2 text-nowrap">Respondents</p>
+                            <p class="text-nowrap">Respondents</p>
                         </div>
                     </div>
                 </div>
@@ -1007,13 +1032,13 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div>
                           
-                        <h5 class="text-nowrap">Leadership</>
+                            <h5 class="text-nowrap">Advanced</h5>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5 id="gl">9</h5>
+                        <h5 class="text-nowrap">15</h5>
 
                         </div>
                     </div>
@@ -1023,13 +1048,29 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div>
                           
-                        <h5 class="text-nowrap">Average</h5>
+                        <h5 class="text-nowrap">Intermediate</h5>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5 id="ga">7</h5>
+                        <h5 class="text-nowrap">37</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div>
+                          
+                        <h5 class="text-nowrap">Beginner</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="text-sm-end mt-4 mt-sm-0">
+                           
+                            <h5>44</h5>
 
                         </div>
                     </div>
@@ -1045,34 +1086,34 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5 id="gla">4</h5>
+                            <h5>27</h5>
 
                         </div>
                     </div>
                 </div>
-               
             </div>
         </div>
+    </div>
+    <!-- end here -->
     </div>
 
     <div class="col-md-3">
-        <div class="card">
+
+    <div class="card border border-dark btn-rounded">
             <div class="card-body">
-            <div class="avatar-xs align-self-center me-3">
-                                        <span class="avatar-title rounded-circle " style="background-color: rgb(42, 134, 255); color: white">
-                                            ESG
-                                        </span>
+                <div>
+                <div class="flex-grow-1 align-self-center overflow-hidden" style="background-color:#ddeffc; padding:5px 5px 5px 15px; border-radius : 20px; margin-bottom:10px;">
+                                        <h5 class="font-size-14 mb-1"><b style="font-size:20px">ESG</b> score</h5>
                                     </div>
-                <h4 class="card-title mb-4"><center>Score</center></h4>
                 <div class="row">
                     <div class="col-sm-5">
                         <div>
-                       
+                 
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
-                            <p class="text-muted mb-2 text-nowrap">Respondents</p>
+                            <p class="text-nowrap">Respondents</p>
                         </div>
                     </div>
                 </div>
@@ -1081,13 +1122,13 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div>
                           
-                        <h5 class="text-nowrap">Leadership</h5>
+                            <h5 class="text-nowrap">Advanced</h5>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5 id="scl">3</h5>
+                        <h5 class="text-nowrap">39</h5>
 
                         </div>
                     </div>
@@ -1097,13 +1138,29 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div>
                           
-                        <h5 class="text-nowrap">Average</h5>
+                        <h5 class="text-nowrap">Intermediate</h5>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5 id="sca">11</h5>
+                        <h5 class="text-nowrap">75</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div>
+                          
+                        <h5 class="text-nowrap">Beginner</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="text-sm-end mt-4 mt-sm-0">
+                           
+                            <h5>122</h5>
 
                         </div>
                     </div>
@@ -1119,19 +1176,19 @@ For <b>Governance</b> Domain, most of the respondents are in <b>Leadership</b> s
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-4 mt-sm-0">
                            
-                            <h5 id="scla">2</h5>
+                            <h5>58</h5>
 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <!-- end here -->
     </div>
 
 
 </div>
-
-                    </form>
 
         <h4>Portfolio Description</h4>                   <!-- <h2>Charts</h2> -->
         <div class="card" style="background-color: #f8f8fb">
