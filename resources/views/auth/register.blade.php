@@ -15,15 +15,11 @@
                         <div class="card overflow-hidden">
                             <div class="bg-primary bg-soft">
                                 <div class="row">
-                                    <div class="col-7">
+                                    <div class="col-12">
                                         <div class="text-primary p-4">
                                             <h5 class="text-primary">Corporate Registration</h5>
-                                            <p>Get your UNGCSME account now.</p>
+                                            <p>Get your UNGC-MYB account now.</p>
                                         </div>
-                                    </div>
-                                    <div class="col-5 align-self-end">
-                                        <img src="{{ URL::asset('/assets/images/profile-img.png') }}" alt=""
-                                            class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -32,8 +28,8 @@
                                     <a href="index">
                                         <div class="avatar-md profile-user-wid mb-4">
                                             <span class="avatar-title rounded-circle bg-light">
-                                                <img src="{{ URL::asset('/assets/images/logo.svg') }}" alt=""
-                                                    class="rounded-circle" height="34">
+                                                <img src="{{ URL::asset('assets/images2/home2/corporate2.png') }}" alt=""
+                                                    class="rounded-circle" height="100">
                                             </span>
                                         </div>
                                     </a>
@@ -57,7 +53,7 @@
                                             @enderror
                                         </div>
 
-                                        <div class="mb-3">
+                                        <!-- div class="mb-3">
                                             <label for="ssmnumber" class="form-label">SSM Number</label>
                                             <input type="text" class="form-control @error('ssmnumber') is-invalid @enderror" id="ssmnumber"
                                             value="{{ old('ssmnumber') }}" name="company_ssm" placeholder="Enter SSM Number" autofocus required>
@@ -81,7 +77,7 @@
                                                     <strong>{{ $message }}</strong>
                                                 </span>
                                             @enderror
-                                        </div>
+                                        </div -->
 
 
                                         <div class="mb-3">
@@ -243,7 +239,7 @@
                                         </div> -->
 
                                         <div class="mt-4 text-center">
-                                            <p class="mb-0">By registering you agree to the UNGCSME <a href="#"
+                                            <p class="mb-0">By registering you agree to the UNGC-MYB <a href="#"
                                                     class="text-primary">Terms of Use</a></p>
                                         </div>
                                     </form>
@@ -256,11 +252,6 @@
                             <div>
                                 <p>Already have an account ? <a href="{{ url('login') }}" class="fw-medium text-primary">
                                         Login</a> </p>
-                                <p>© <script>
-                                        document.write(new Date().getFullYear())
-
-                                    </script> UNGCSME
-                                </p>
                             </div>
                         </div>
 
