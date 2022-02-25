@@ -234,7 +234,7 @@
 }
 
 .intermediate {
-  background-color: #6c99c6;
+  background-color: blue;
   padding : 5px 10px 5px 10px;
   color: #FFF;
   border-radius: 20px;
@@ -261,4 +261,8 @@
   text-transform: uppercase;
   font-size: 10px;
   font-weight: bold;
+}
+
+.page-title-box {
+  padding-bottom: 4px;
 }
