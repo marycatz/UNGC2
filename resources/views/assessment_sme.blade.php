@@ -13,7 +13,39 @@
 
     <label><h3>Welcome to the ESG assessment!</h3></label>
 
-        
+    <div class="row">
+        <div class="col-12">
+            <label>List of Assessment Results under this Corporate account</label>
+        </div>
+    </div>
+    </br>
+    <div class="row">
+        <div class="col-md-4">
+            <label>
+            <img src="{{ URL::asset('/assets/images/assessmentsme.png') }}" alt="" class="img-fluid" style="border-radius:20px;">
+            </label>
+        </div>
+        <div class="col-md-8">
+            
+            <label>Welcome to the ESG assessment!</label>
+            <ol>
+                <li>The assessment consists of 40 questions covering the Environmental, Social and Governance areas.</li>
+                <li>The assessment will take approximately 30 mins to complete. You may save your progress at any stage and return to complete the assessment at a later time.</li>
+                <li>You may need to prepare the following documents (for upload) before starting (if applicable):
+                    <ol style="list-style-type: lower-alpha;">
+                        <li>SSM Certificate of incorporation (compulsory)</li>
+                        <li>ISO 14046:2014. Environmental management — Water footprint — Principles, requirements and guidelines based on Lifecycle Assessment </li>
+                        <li>ISO 46001:2019. Water efficiency management systems. </li>
+                        <li>ISO 14001:2015. Environmental management systems.</li>
+                        <li>ISO 14006:2020. Environmental management systems.</li>
+                        <li>ISO 30415:2021. Human resource management — Diversity and inclusion.</li>
+                        <li>ISO 37001:2016. Anti-bribery management systems </li>
+                    </ol>
+                </li>
+                <li>You are allowed to complete the assessment once every 6 months. </li>
+            </ol>
+        </div>
+    </div>        
 
 </div>
 <!-- <p style="font-size:20px;">You are allowed to complete the assessment once every 6 months.</p> -->
