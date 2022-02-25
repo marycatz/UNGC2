@@ -306,7 +306,7 @@
                 <div class="tab-content p-3 text-muted">
 
                 <div class="tab-pane active" id="portfolio-report" role="tabpanel">
-                <iframe src="{{url('doc/Overall_Assessment_Report_pdf_version.pdf')}}" width="100%" height="1000px">Your browser isn't compatible</iframe>
+                <iframe src="{{url('doc/Corporate_Assessment_Report.pdf')}}" width="100%" height="1000px">Your browser isn't compatible</iframe>
                 </div>
 
                 
