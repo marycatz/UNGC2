@@ -6,7 +6,7 @@
                 <a href="{{ route('landinghome') }}" class="">
                 
                     <span class="logo-sm">
-                        <img src="{{ asset ('/images/smelogonew.jpeg') }}" alt="" height="55px;">
+                        <img src="{{ asset ('/assets/images//home2/logo.png') }}" alt="" height="55px;">
                     </span>&nbsp;&nbsp;
                     <span class="logo-sm">
                         <img src="{{ asset ('/images/ungcmy-logo-w.png') }}" alt="" height="">
