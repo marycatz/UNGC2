@@ -163,7 +163,7 @@
                                                  <!-- <td>Encik Caspian</td> -->
                                                 <!-- <td><center>-</center></td>  -->
                                                 <!-- <button type="button" class="btn btn-primary btn-rounded waves-effect waves-light" style="height: 33px;">View Profile</button>  -->
-                                                <td><button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disallow"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button> </td>
+                                                <td><button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disconnect"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button> </td>
                                             </tr>
                                             <tr  style="background-color: rgb(233, 233, 233);">
                                                 <td>2</td>
@@ -171,7 +171,7 @@
                                                  <td>12345678</td>
                                                <!-- <td>Encik Ali</td>
                                                 <td><center>-</center></td> -->
-                                                <td><button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disallow"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td>
+                                                <td><button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disconnect"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
@@ -179,7 +179,7 @@
                                                 <td>12345678</td>
                                                 <!-- <td>Encik Ken</td>
                                                 <td><center>-</center></td> -->
-                                                <td><button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disallow"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td>
+                                                <td><button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disconnect"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td>
                                             </tr>
                                             <tr  style="background-color: rgb(233, 233, 233);">
                                                 <td>4</td>
@@ -187,7 +187,7 @@
                                                 <td>12345678</td>
                                                  <!--<td>Encik Shazli</td>
                                                 <td><center>-</center></td> -->
-                                                <td><button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disallow"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td>
+                                                <td><button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disconnect"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -277,7 +277,7 @@
                                                         </div><!-- /.modal-dialog -->
                                                     </div><!-- /.modal -->
                                                     <button type="button" class="btn btn-primary btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="View Profile"><img src="{{ URL::asset('/assets/images/view.png') }}" width="15px"></button>
-                                                    <button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disallow"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td>
+                                                    <button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disconnect"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td>
                                             </tr>
                                             <tr  style="background-color: rgb(233, 233, 233);">
                                                 <td>2</td>
@@ -302,7 +302,7 @@
                                                         </div><!-- /.modal-dialog -->
                                                     </div><!-- /.modal -->
                                                     <button type="button" class="btn btn-primary btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="View Profile"><img src="{{ URL::asset('/assets/images/view.png') }}" width="15px"></button>
-                                                    <button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disallow"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td></td>
+                                                    <button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disconnect"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td></td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
@@ -327,7 +327,7 @@
                                                         </div><!-- /.modal-dialog -->
                                                     </div><!-- /.modal -->
                                                     <button type="button" class="btn btn-primary btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="View Profile"><img src="{{ URL::asset('/assets/images/view.png') }}" width="15px"></button>
-                                                    <button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disallow"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td></td>
+                                                    <button type="button" class="btn btn-danger btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Disconnect"><img src="{{ URL::asset('/assets/images/disconnect.png') }}" width="15px"></button></td></td>
                                             </tr>
                                         </tbody>
                                     </table>
