@@ -52,7 +52,7 @@
 
                             <div class="row">
                                 <div class="col-5">
-                                    <span class="" style="color:red;">Unverified</span>
+                                    <span class="" style="color:red;">Unverified <p style="color: #000;">Company Profile</p></span>
                                 </div>
                                 <div class="col-7">
                                 Current ACCESS index level<br /><span class=" advanced">Advanced</span>
