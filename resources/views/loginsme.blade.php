@@ -14,7 +14,7 @@
                                     <div class="col-12">
                                         <div class="text-primary p-4">
                                             <h5 class="text-primary">Welcome </h5>
-                                            <p>Sign In to continue to <b>UNGCSME</b></p>
+                                            <p>Sign In to continue to <b>UNGC-MYB</b></p>
                                         </div>
                                     </div>
                                 </div>
