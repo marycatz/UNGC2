@@ -3,9 +3,6 @@
 @section('title')
     @lang('translation.Register')
 @endsection
-@section('css')
-    <link href="{{ URL::asset('/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.css') }}" rel="stylesheet" type="text/css">
-@endsection
 
 
  
@@ -85,6 +82,17 @@
                                                 </span>
                                             @enderror
                                         </div>
+
+                                        <div class="mb-3">
+                                            <label for="ssmnumber" class="form-label">SME Corp Registration Number</label>
+                                            <input type="text" class="form-control @error('ssmnumber') is-invalid @enderror" id="ssmnumber"
+                                            value="{{ old('ssmnumber') }}" name="company_ssm" placeholder="Enter SME Corp Registration Number (optional)" autofocus required>
+                                            @error('ssmnumber')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                            @enderror
+                                        </div>                                        
 
 
                                         <div class="mb-3">
@@ -219,66 +227,17 @@
                                             @enderror
                                         </div>
 
-                                        <!-- <div class="mb-3">
-                                            <label for="userdob">Date of Birth</label>
-                                            <div class="input-group" id="datepicker1">
-                                                <input type="text" class="form-control @error('dob') is-invalid @enderror" placeholder="dd-mm-yyyy"
-                                                    data-date-format="dd-mm-yyyy" data-date-container='#datepicker1' data-date-end-date="0d" value="{{ old('dob') }}"
-                                                    data-provide="datepicker" name="dob" autofocus required>
-                                                <span class="input-group-text"><i class="mdi mdi-calendar"></i></span>
-                                                @error('dob')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
-                                        </div> -->
-
-                                        <!-- <div class="mb-3">
-                                            <label for="avatar">Profile Picture</label>
-                                            <div class="input-group">
-                                                <input type="file" class="form-control @error('avatar') is-invalid @enderror" id="inputGroupFile02" name="avatar" autofocus required>
-                                                <label class="input-group-text" for="inputGroupFile02">Upload</label>
-                                            </div>
-                                            @error('avatar')
-                                                <span class="invalid-feedback" role="alert">
-                                                    <strong>{{ $message }}</strong>
-                                                </span>
-                                            @enderror
-                                        </div> -->
+                         
 
                                         <div class="mt-4 d-grid">
                                             <button class="btn btn-primary waves-effect waves-light"
                                                 type="submit">Register</button>
                                         </div>
 
-                                        <!-- <div class="mt-4 text-center">
-                                            <h5 class="font-size-14 mb-3">Sign up using</h5>
-
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <a href="#"
-                                                        class="social-list-item bg-primary text-white border-primary">
-                                                        <i class="mdi mdi-facebook"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a href="#"
-                                                        class="social-list-item bg-info text-white border-info">
-                                                        <i class="mdi mdi-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a href="#"
-                                                        class="social-list-item bg-danger text-white border-danger">
-                                                        <i class="mdi mdi-google"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div> -->
+           
 
                                         <div class="mt-4 text-center">
-                                            <p class="mb-0">By registering you agree to the UNGCSME <a href="#"
+                                            <p class="mb-0">By registering you agree to the UNGC-MYB <a href="#"
                                                     class="text-primary">Terms of Use</a></p>
                                         </div>
                                     </form>
@@ -289,13 +248,8 @@
                         <div class="mt-5 text-center">
 
                             <div>
-                                <p>Already have an account ? <a href="{{ url('login') }}" class="fw-medium text-primary">
+                                <p>Already have an account ? <a href="{{ url('loginsme') }}" class="fw-medium text-primary">
                                         Login</a> </p>
-                                <p>© <script>
-                                        document.write(new Date().getFullYear())
-
-                                    </script> UNGCSME
-                                </p>
                             </div>
                         </div>
 
@@ -303,6 +257,3 @@
                 </div>
  
     @endsection
-@section('script')
-    <script src="{{ URL::asset('/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.js') }}"></script>
-@endsection
