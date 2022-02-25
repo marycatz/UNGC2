@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-6">
-            Copyright <script>document.write(new Date().getFullYear())</script> UNGC-MYB
+            <p>&copy; 2022 UN Global Compact Network Malaysia & Brunei (UNGC-MYB). All rights reserved.</p>
             </div>
             <div class="col-sm-6">
                 <div class="text-sm-end d-none d-sm-block">
