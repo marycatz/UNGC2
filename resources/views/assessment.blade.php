@@ -2,6 +2,8 @@
 
 @section('title') @lang('translation.Orders') @endsection
 
+<link href="{{ URL::asset('/assets/css/SME.css') }}" rel="stylesheet" type="text/css" />
+
 @section('content')
 
     @component('components.breadcrumb')
@@ -62,7 +64,7 @@
                                     <td>44</td>
                                     <td>35</td>
                                     <td>35</td>
-                                    <td>89 <b>[Advanced]</b></td>
+                                    <td>89 <span class="advanced">Advanced</span></td>
                                     <td>10/12/2021</td>
                                     <td>
                                     <a href="{{ route('assessment_detail') }}"><button type="button" class="btn btn-success btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="View Results"><img src="{{ URL::asset('/assets/images/view.png') }}" width="15px"></button></a></td>
@@ -75,7 +77,7 @@
                                     <td>57</td>
                                     <td>67</td>
                                     <td>45</td>
-                                    <td>78 <b>[Advanced]</b></td>
+                                    <td>78 <span class="advanced">Advanced</span></td>
                                     <td>10/06/2021</td>
                                     <td><a href="{{ route('assessment_detail') }}"><button type="button" class="btn btn-success btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="View Results"><img src="{{ URL::asset('/assets/images/view.png') }}" width="15px"></button></a></td>
                                 </tr>
@@ -87,7 +89,7 @@
                                     <td>56</td>
                                     <td>68</td>
                                     <td>45</td>
-                                    <td>78 <b>[Advanced]</b></td>
+                                    <td>78 <span class="advanced">Advanced</span></td>
                                     <td>12/01/2022</td>
                                     <td><a href="{{ route('assessment_detail') }}"><button type="button" class="btn btn-success btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="View Results"><img src="{{ URL::asset('/assets/images/view.png') }}" width="15px"></button></a></td>
                                 </tr>
@@ -99,7 +101,7 @@
                                     <td>56</td>
                                     <td>67</td>
                                     <td>45</td>
-                                    <td>78 <b>[Advanced]</b></td>
+                                    <td>78 <span class="advanced">Advanced</span></td>
                                     <td>12/01/2022</td>
                                     <td><a href="{{ route('assessment_detail') }}"><button type="button" class="btn btn-success btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="View Results"><img src="{{ URL::asset('/assets/images/view.png') }}" width="15px"></button></a></td>
                                 </tr>
@@ -111,7 +113,7 @@
                                     <td>57</td>
                                     <td>67</td>
                                     <td>45</td>
-                                    <td>78 <b>[Advanced]</b></td>
+                                    <td>78 <span class="advanced">Advanced</span></td>
                                     <td>13/02/2022</td>
                                     <td><a href="{{ route('assessment_detail') }}"><button type="button" class="btn btn-success btn-rounded waves-effect waves-light" data-bs-toggle="tooltip" data-bs-placement="top" title="View Results"><img src="{{ URL::asset('/assets/images/view.png') }}" width="15px"></button></a></td>
                                 </tr>
