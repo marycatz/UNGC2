@@ -36,17 +36,26 @@
                         <i class="mdi mdi-account-circle text-primary h3">Logo</i>
                     </div>
                     <div>
-                        <h6 class="text-muted mb-1">Name:</h6>
-                        <h5 class="">Encik Ali</h5>
-                        <br>
-                        <h6 class="text-muted mb-1">Professional Job Title:</h6>
-                        <h5 class="">General Manager</h5>
-                        <br>
-                        <h6 class="text-muted mb-1">Company Name:</h6>
+                    <h6 class="text-muted mb-1">Company Name:</h6>
                         <h5 class="">Ali Resources Sdn Bhd</h5>
                         <br>
                         <h6 class="text-muted mb-1">Industry:</h6>
                         <h5 class="">Construction</h5>
+                        <br>
+                        <h6 class="text-muted mb-1">Contact Person:</h6>
+                        <h5 class="">Encik Ali</h5>
+                        <br>
+                        <h6 class="text-muted mb-1">Designation:</h6>
+                        <h5 class="">General Manager</h5>
+                        <br>
+                        <h6 class="text-muted mb-1">Report Date:</h6>
+                        <h5 class="">26/01/2022</h5>
+                        <br>
+                        <h6 class="text-muted mb-1">Assessment Completion Date:</h6>
+                        <h5 class="">20/01/2022</h5>
+                        <br>
+                        <h6 class="text-muted mb-1">Validity Period:</h6>
+                        <h5 class="">20/01/2022 - 20/01/2023</h5>
                     </div>
                 </div>
             </div>
